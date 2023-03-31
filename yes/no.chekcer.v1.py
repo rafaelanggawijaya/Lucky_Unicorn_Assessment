@@ -1,4 +1,4 @@
-""" Lucky Unicorn project -Yes/No-
+""" Lucky Unicorn project -Yes/No-v1
  Confirmation for player if they have played the game before,
  player input can either be y or n if not y/n prints out error
  feature: added the ability for the player to type in caps y/n

@@ -1,4 +1,4 @@
-""" Lucky Unicorn project -Yes/No-
+""" Lucky Unicorn project -Yes/No-v3
  Confirmation for player if they have played the game before,
  player input can either be y or n if not prints out error
  Update: Changed so testing is easier and simplified code, and it repeats itself
