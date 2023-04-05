@@ -31,7 +31,6 @@ def instructions():
     print()
 
 
-
 def number_checker(question, high, low):
     error = "<error> -invalid input- " \
             "Please enter a number between {} and {}\n".format(high, low)
