@@ -1,4 +1,4 @@
-"""Component 3 Token Generator
+"""Component 3 Token Generator v1
  Generates random tokens (Unicorn, Zebra, Horse, Donkey
  created by Rafael Anggawijaya"""
 
