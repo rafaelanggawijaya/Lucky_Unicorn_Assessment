@@ -21,7 +21,6 @@ balance = STARTING_BALANCE
 
 for item in range(20):
     token = random.choice(tokens)
-    print(token, end='\t')  # easier to screenshot
 
     # changes balance
 
@@ -31,7 +30,7 @@ for item in range(20):
         balance -= 1
     else:
         balance -= 0.5
-
+    print(f"Token:{token} current balance:{balance}")
 
 # output
 print(f"\nStarting balance:${STARTING_BALANCE:.2f}")

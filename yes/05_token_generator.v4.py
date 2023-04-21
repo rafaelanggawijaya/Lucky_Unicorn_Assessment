@@ -6,6 +6,7 @@
         horse come out 32.5%
         donkey come out 30%
 of the time.
+Also changed code so it is easier to test.
  created by Rafael Anggawijaya"""
 
 # imports random function
@@ -18,7 +19,7 @@ STARTING_BALANCE = 100
 balance = STARTING_BALANCE
 # test loop for generating random tokens
 
-for item in range(10):
+for item in range(20):
     number = random.randint(1, 100)
     if number <= 5:
         token = "unicorn"
@@ -29,7 +30,6 @@ for item in range(10):
             token = "zebra"
         else:
             token = "horse"
-    print(token, end='\t')  # easier to screenshot
 
     # changes balance
 
@@ -39,8 +39,8 @@ for item in range(10):
         balance -= 1
     else:
         balance -= 0.5
-
+    print(f"Token:{token} current balance:{balance}")
 
 # output
 print(f"\nStarting balance:${STARTING_BALANCE:.2f}")
-print(f"balance:${balance:.2f}")
+print(f"Ending balance:${balance:.2f}")
