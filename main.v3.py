@@ -133,7 +133,7 @@ if played_before == "no":
 
 # ask for player amount to bet
 player_balance = number_checker("How much will you add to your balance (between 1 and 10) $", 10, 1)
-print(f"Your balance is ${player_balance}")
+print(f"Your balance is ${player_balance} press <enter> to start")
 ending_balance = token_generator(player_balance)
 print(f"\nThank you for playing\nYour starting balance was ${player_balance}\n You ended with ${ending_balance}")
 print(text_formatter("*", "-", "-", "Goodbye") + "\n")
