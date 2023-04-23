@@ -1,7 +1,6 @@
-"""Component 4 -rounds- v1
-Same as component 3 (token generator) but set to give
-only donkeys for testing rounds and keeping the balance
-consistent for trials
+"""Component 4 -rounds- v2
+Same as component 3 (token generator)
+Changed: token generator is no longer set to donkeys only
 By Rafael Anggawijaya"""
 
 import random
@@ -14,7 +13,7 @@ rounds_play = 0
 
 for item in range(20):
     rounds_play += 1
-    number = random.randint(6, 35)  # makes it so only donkeys can be chosen
+    number = random.randint(1, 100)  # makes it so only donkeys can be chosen
     if number <= 5:
         token = "unicorn"
     elif number <= 35:

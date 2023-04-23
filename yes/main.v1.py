@@ -1,3 +1,8 @@
+"""Lucky Unicorn project
+A game of luck where the player bets money. Depending on what they
+get they can lose or gain money."""
+
+
 # yes/no function
 
 def yes_no(question_text):
@@ -31,6 +36,7 @@ def instructions():
     print()
 
 
+# number checking function
 def number_checker(question, high, low):
     error = "<error> -invalid input- " \
             "Please enter a number between {} and {}\n".format(high, low)
