@@ -1,6 +1,7 @@
 """Lucky Unicorn project
 A game of luck where the player bets money. Depending on what they
 get they can lose or gain money.
+Update: added text formatter function
 by Rafael Anggawijaya"""
 
 import random
