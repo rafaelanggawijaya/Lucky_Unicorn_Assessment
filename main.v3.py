@@ -38,7 +38,7 @@ def instructions():
     print()
     print("Choose a starting amount (between 1 and 10) \nThen press <enter> and you wil randomly get the following "
           "tokens:\n"
-          "Unicorn (gives you $5)\nZebra (takes away $0.5)\nHorse (takes away $0.5)\nDonkey (takes $1)\n"
+          "Unicorn (gives you $5)\nZebra (takes away $0.50)\nHorse (takes away $0.5)\nDonkey (takes $1)\n"
           "Each round you can quit or continue\n"
           "By pressing the <enter> key you continue the game with another random\n"
           "By entering a 'X' you can quit the game keeping the money on your balance\n"
